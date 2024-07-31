@@ -9,7 +9,6 @@ describe('Testing numbers', () => {
     expect(2 === 2).to.be.true;
   });
 
-  // use '.skip' method provided by Mocha to skip the test
   it.skip('1 is equal to 3', () => {
     expect(1 === 3).to.be.true;
   });
